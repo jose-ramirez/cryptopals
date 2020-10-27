@@ -1,0 +1,10 @@
+[package]
+name = "algorithms"
+version = "0.1.0"
+authors = ["Jose Ramirez <a30673083@gmail.com>"]
+edition = "2018"
+
+
+[dependencies]
+metrics = { path = "../metrics" }
+utils = { path = "../utils" }

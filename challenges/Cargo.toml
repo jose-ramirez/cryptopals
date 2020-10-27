@@ -1,0 +1,15 @@
+[package]
+name = "challenges"
+version = "0.1.0"
+authors = ["Jose Ramirez <a30673083@gmail.com>"]
+edition = "2018"
+
+
+[dependencies]
+hex = "0.4.1"
+base64 = "0.12.3"
+openssl = "0.10.30"
+algorithms = { path = "../algorithms" }
+utils = { path = "../utils" }
+metrics = { path = "../metrics" }
+set1 = { path = "../set1" }
