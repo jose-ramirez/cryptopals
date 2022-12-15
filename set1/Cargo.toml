@@ -2,13 +2,13 @@
 name = "set1"
 version = "0.1.0"
 authors = ["Jose Ramirez <a30673083@gmail.com>"]
-edition = "2018"
+edition = "2021"
 
 
 [dependencies]
 hex = "0.4.1"
 base64 = "0.12.3"
-openssl = "0.10.30"
+openssl = "0.10.44"
 utils = { path = "../utils" }
 algorithms = { path = "../algorithms" }
 metrics = { path = "../metrics" }
